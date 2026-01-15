@@ -14,7 +14,7 @@ TARGET_CHANNEL_ID = '@babichtgc'
 
 @bot.message_handler(commands=['start']) # command /start
 def start(message):
-    markup = types.ReplyKeyboardMarkup()
+    markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
     markup.add(types.KeyboardButton("Message to @babichtgc"))
     bot.send_message(message.chat.id,
                      f"Hello, {message.from_user.first_name}! I'm babich telegram bot. Made by @babichtgc\n\nPrint /help to see available commands",
