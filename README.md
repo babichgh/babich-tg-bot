@@ -33,7 +33,7 @@
 2. Create .env file as .env.example
 3. Build the image
    ```
-   docker build -t {image_name}
+   docker build -t {image_name} .
    ```
 4. Run the container
    ```
