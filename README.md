@@ -48,6 +48,8 @@
 babich-tg-bot/
 ├── .env.example     # .env example
 ├── .gitignore       # Ignores .env
+├── Dockerfile       # For image building
+├── LICENSE          # License
 ├── README.md        # You read it right now
 ├── main.py          # Python source code
 └── requirements.txt # Dependencies are here
