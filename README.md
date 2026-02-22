@@ -37,7 +37,11 @@
    ```
 4. Run the container
    ```
-   docker run {image_name}
+   docker run -d {image_name}
+   ```
+   If you want it to restart
+   ```
+   docker run -d --restart unless-stopped {image_name}
    ```
 ## Project structure
 ```
